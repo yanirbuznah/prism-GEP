@@ -12,12 +12,14 @@ abstract: >-
 authors:
   - family-names: Buznah
     given-names: Yanir
+    orcid: "https://orcid.org/0009-0001-3282-1589"
     affiliation: Bar-Ilan University
   - family-names: Ishon
     given-names: Tal
     affiliation: Bar-Ilan University
   - family-names: Shaham
     given-names: Uri
+    orcid: "https://orcid.org/0000-0002-5928-4269"
     affiliation: Bar-Ilan University
 license: MIT
 repository-code: "https://github.com/shaham-lab/PRISM-GEP"
@@ -36,7 +38,9 @@ preferred-citation:
   authors:
     - family-names: Buznah
       given-names: Yanir
+      orcid: "https://orcid.org/0009-0001-3282-1589"
     - family-names: Ishon
       given-names: Tal
     - family-names: Shaham
       given-names: Uri
+      orcid: "https://orcid.org/0000-0002-5928-4269"
