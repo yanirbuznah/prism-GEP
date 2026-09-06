@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "PRISM-GEP: Viewing Single-Cell Expression through the Lens of Topic Modeling"
+abstract: >-
+  PRISM-GEP recovers gene-expression programs from single-cell RNA-seq by treating
+  the problem as topic modeling. It runs standard LDA (a patched MALLET) with an
+  informed, per-gene Dirichlet prior estimated from the dataset's own gene-gene
+  co-expression geometry, with no external database or reference atlas. This
+  repository holds the method, the evaluation code, and the generators for the
+  paper's benchmark tables.
+authors:
+  - family-names: Buznah
+    given-names: Yanir
+    affiliation: Bar-Ilan University
+  - family-names: Ishon
+    given-names: Tal
+    affiliation: Bar-Ilan University
+  - family-names: Shaham
+    given-names: Uri
+    affiliation: Bar-Ilan University
+license: MIT
+repository-code: "https://github.com/shaham-lab/PRISM-GEP"
+version: 1.0.0
+date-released: 2026-09-06
+keywords:
+  - single-cell RNA-seq
+  - gene expression programs
+  - topic modeling
+  - latent Dirichlet allocation
+  - Dirichlet prior
+preferred-citation:
+  type: article
+  title: "PRISM-GEP: Viewing Single-Cell Expression through the Lens of Topic Modeling"
+  journal: Bioinformatics
+  authors:
+    - family-names: Buznah
+      given-names: Yanir
+    - family-names: Ishon
+      given-names: Tal
+    - family-names: Shaham
+      given-names: Uri
